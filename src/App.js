@@ -2,22 +2,25 @@
 // routing and rendering different pages
 
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 
+import Landing from "./components/Landing";
+import Nav from "./components/Nav";
 import About from "./components/About";
+import Timeline from "./components/Timeline";
+import Projects from "./components/Projects"
 
 
 function App() {
   return (
     <div>
-      <Router>
-        <div style={{ display: 'flex' }}>
-          <Routes>
-            <Route path="/about" element ={<About />} />
-          </Routes>
-        </div>
-      </Router>
+      <div style={{ display: 'flex', flexDirection: 'column' }}>
+        <Landing />
+        <Nav />
+        <About />
+        <Timeline />
+        <Projects />
+      </div>
     </div>
   );
 }
