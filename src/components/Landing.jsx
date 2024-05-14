@@ -1,8 +1,6 @@
 import React from 'react'
 import './Header.css'
 import CTA from './CTA'
-// import me from '../../assets/me-new.png'
-// import HeaderSocials from './HeaderSocials'
 
 import {BsLinkedin} from 'react-icons/bs'
 import {BsGithub} from 'react-icons/bs'

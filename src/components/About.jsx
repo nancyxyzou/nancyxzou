@@ -1,4 +1,4 @@
-import { React, useEffect } from 'react'
+import { React } from 'react'
 import './About.css'
 import NancyProfile from '../assets/NancyProfile.jpg'
 import {GiGraduateCap} from 'react-icons/gi'
@@ -6,11 +6,10 @@ import { BsFillBookmarkHeartFill } from "react-icons/bs";
 import {TfiWorld} from 'react-icons/tfi'
 
 const About = () => {
-  
 
   return (
     <section id='about'>
-      <h5>Who am I?</h5>  
+      <h5>What should you know about me?</h5>  
       <h2>About Me</h2>
 
       <div className="container about__container">
