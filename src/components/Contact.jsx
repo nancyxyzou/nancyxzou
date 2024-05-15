@@ -1,12 +1,11 @@
 import React from 'react'
 import './Contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
-// import { useRef } from 'react';
-import { SiLinkedin } from "react-icons/si";
+import { BsLinkedin } from "react-icons/bs";
+import { BsFiletypePdf } from "react-icons/bs";
+import Resume from '../assets/F24Resume.pdf'
 
 const Contacts = () => {
-//   const form = useRef()
-
   return (
     <section id='contacts'>
 
@@ -19,14 +18,21 @@ const Contacts = () => {
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5 style={{color: '#abd1c6'}}>nxyzou@uwaterloo.ca</h5>
-            <a href="mailto:nxyzou@uwaterloo.ca">Send a message</a>
+            <a href="mailto:nxyzou@uwaterloo.ca"><b>Send a message</b></a>
           </article>
 
           <article className='contact__option'>
-            <SiLinkedin className='contact__option-icon'/>
+            <BsLinkedin className='contact__option-icon'/>
             <h4>LinkedIn</h4>
             <h5 style={{color: '#abd1c6'}}>linkedin.com/in/nancyxzou/</h5>
-            <a href="https://www.linkedin.com/in/nancyxzou/">Connect with me</a>
+            <a href="https://www.linkedin.com/in/nancyxzou/"><b>Connect with me</b></a>
+          </article>
+          
+          <article className='contact__option'>
+            <BsFiletypePdf className='contact__option-icon'/>
+            <h4>Resume</h4>
+            <h5 style={{color: '#abd1c6'}}>Last but not least...</h5>
+            <a href={Resume} target = "_blank"><b>Check out my resume</b></a>
           </article>
         </div>
 

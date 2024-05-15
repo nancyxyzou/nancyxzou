@@ -4,6 +4,7 @@ import CTA from './CTA'
 
 import {BsLinkedin} from 'react-icons/bs'
 import {BsGithub} from 'react-icons/bs'
+import { MdOutlineEmail } from 'react-icons/md'
 
 import Spline from '@splinetool/react-spline';
 
@@ -20,6 +21,7 @@ const Landing = () => {
           <div className="header__socials">
             <a href="https://www.linkedin.com/in/nancyxzou" target="_blank" rel='noreferrer'><BsLinkedin/></a>
             <a href="https://github.com/nancyxyzou" target="_blank" rel='noreferrer'><BsGithub/></a>
+            <a href="mailto:nxyzou@uwaterloo.ca"><MdOutlineEmail/></a>
           </div>
 
           <div className='me'>
