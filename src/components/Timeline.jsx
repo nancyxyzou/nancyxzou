@@ -119,7 +119,7 @@ export default class Timeline extends Component {
             <h5>What have I been up to?</h5>  
             <h2>Experiences</h2>
             <p style={{textAlign: 'center'}}>PRESENT</p>
-            <TimelinePart />;
+            <TimelinePart />
           </section>
         )
     }
