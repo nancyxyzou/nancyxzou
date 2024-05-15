@@ -19,8 +19,8 @@ function App() {
         <Landing />
         <Nav />
         <About />
-        <Projects />
         <Timeline />
+        <Projects />
         <Contacts />
         <Footer />
       </div>
