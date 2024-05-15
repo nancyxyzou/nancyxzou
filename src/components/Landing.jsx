@@ -1,8 +1,12 @@
 import React from 'react'
 import './Header.css'
 import CTA from './CTA'
+
 import {BsLinkedin} from 'react-icons/bs'
 import {BsGithub} from 'react-icons/bs'
+
+import Spline from '@splinetool/react-spline';
+
 
 const Landing = () => {
   return (
@@ -18,7 +22,9 @@ const Landing = () => {
             <a href="https://github.com/nancyxyzou" target="_blank" rel='noreferrer'><BsGithub/></a>
           </div>
 
-          <div className="me">
+          <div className='me'>
+            <Spline scene="https://prod.spline.design/YlqllHOL9IG7Hx5N/scene.splinecode" />
+
             {/* <img src={NancyProfile} alt='me'/> */}
           </div>
 

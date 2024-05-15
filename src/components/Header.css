@@ -40,18 +40,16 @@ header{
 /* Applying CSS for My image */
 .me{
     background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 30rem;
-    position: absolute;
-    left: calc(50% - 11rem);
+    width: 60vw;
+    height: 45vh;
+    position: center;
+    justify-content: center;
     margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3rem 3rem 3rem 3rem;
     overflow: hidden;
     padding: 5rem 1.5rem 1,5rem 1.5rem;
-}
-
-.me > img{
-    margin-left: .5rem;
 }
 
 /* Applying CSS for Scroll Down */
