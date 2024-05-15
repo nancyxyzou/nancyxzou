@@ -1,4 +1,4 @@
-# Welcome to [Nancy's Portfolio](nancyxyzou.github.io/nancyxzou/)
+# Welcome to [Nancy's Portfolio](nancyxyzou.github.io/nancyxzou/)!
 
 # Getting Started with Create React App
 
