@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.92cbd720.css",
+    "main.js": "/react-gh-pages/static/js/main.a408cebf.js",
+    "static/js/208.348f764e.chunk.js": "/react-gh-pages/static/js/208.348f764e.chunk.js",
+    "static/js/293.02a17dca.chunk.js": "/react-gh-pages/static/js/293.02a17dca.chunk.js",
+    "static/js/917.63406be4.chunk.js": "/react-gh-pages/static/js/917.63406be4.chunk.js",
+    "static/js/516.32768d19.chunk.js": "/react-gh-pages/static/js/516.32768d19.chunk.js",
+    "static/js/519.ed78c0cb.chunk.js": "/react-gh-pages/static/js/519.ed78c0cb.chunk.js",
+    "static/js/946.11f68788.chunk.js": "/react-gh-pages/static/js/946.11f68788.chunk.js",
+    "static/js/160.e46f2cad.chunk.js": "/react-gh-pages/static/js/160.e46f2cad.chunk.js",
+    "static/js/23.46053682.chunk.js": "/react-gh-pages/static/js/23.46053682.chunk.js",
+    "static/js/453.ed3810f9.chunk.js": "/react-gh-pages/static/js/453.ed3810f9.chunk.js",
+    "static/media/NancyProfile.jpg": "/react-gh-pages/static/media/NancyProfile.7674a8fdd72d8ff4e9df.jpg",
+    "static/media/bcigaming.png": "/react-gh-pages/static/media/bcigaming.56967a6394ab12005281.png",
+    "static/media/personalsite.png": "/react-gh-pages/static/media/personalsite.4adb348883636c8c668a.png",
+    "static/media/medinform.png": "/react-gh-pages/static/media/medinform.a62d76d32c4dc3c73946.png",
+    "static/media/dREMt.png": "/react-gh-pages/static/media/dREMt.ea775c90bc3cf82ff7be.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.92cbd720.css.map": "/react-gh-pages/static/css/main.92cbd720.css.map",
+    "main.a408cebf.js.map": "/react-gh-pages/static/js/main.a408cebf.js.map",
+    "208.348f764e.chunk.js.map": "/react-gh-pages/static/js/208.348f764e.chunk.js.map",
+    "293.02a17dca.chunk.js.map": "/react-gh-pages/static/js/293.02a17dca.chunk.js.map",
+    "917.63406be4.chunk.js.map": "/react-gh-pages/static/js/917.63406be4.chunk.js.map",
+    "516.32768d19.chunk.js.map": "/react-gh-pages/static/js/516.32768d19.chunk.js.map",
+    "519.ed78c0cb.chunk.js.map": "/react-gh-pages/static/js/519.ed78c0cb.chunk.js.map",
+    "946.11f68788.chunk.js.map": "/react-gh-pages/static/js/946.11f68788.chunk.js.map",
+    "160.e46f2cad.chunk.js.map": "/react-gh-pages/static/js/160.e46f2cad.chunk.js.map",
+    "23.46053682.chunk.js.map": "/react-gh-pages/static/js/23.46053682.chunk.js.map",
+    "453.ed3810f9.chunk.js.map": "/react-gh-pages/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92cbd720.css",
+    "static/js/main.a408cebf.js"
+  ]
+}
