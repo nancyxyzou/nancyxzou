@@ -10,8 +10,7 @@ import About from "./components/About";
 import Timeline from "./components/Timeline";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
-import Contacts from "./components/Contact";
-
+// import Contacts from "./components/Contact";
 
 function App() {
   return (
@@ -22,7 +21,7 @@ function App() {
         <About />
         <Projects />
         <Timeline />
-        <Contacts />
+        {/* <Contacts /> */}
         <Footer />
       </div>
     </div>

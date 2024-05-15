@@ -2,6 +2,7 @@ import React from 'react'
 import './Footer.css'
 import {BsLinkedin} from 'react-icons/bs'
 import {BsGithub} from 'react-icons/bs'
+import {MdOutlineEmail} from 'react-icons/md'
 
 const Footer = () => {
   return (
@@ -17,6 +18,7 @@ const Footer = () => {
         <div className="footer__socials">
           <a href="https://www.linkedin.com/in/nancyxzou"><BsLinkedin/></a>
           <a href="https://github.com/nancyxyzou"><BsGithub/></a>
+          <a href="mailto:nxyzou@uwaterloo.ca"><MdOutlineEmail/></a>
         </div>
 
         <div className="footer__copyright">
