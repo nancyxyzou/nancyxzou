@@ -8,7 +8,9 @@ import Landing from "./components/Landing";
 import Nav from "./components/Nav";
 import About from "./components/About";
 import Timeline from "./components/Timeline";
-import Projects from "./components/Projects"
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
+import Contacts from "./components/Contact";
 
 
 function App() {
@@ -18,8 +20,10 @@ function App() {
         <Landing />
         <Nav />
         <About />
-        <Timeline />
         <Projects />
+        <Timeline />
+        <Contacts />
+        <Footer />
       </div>
     </div>
   );
