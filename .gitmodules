@@ -1,0 +1,3 @@
+[submodule "osdsite"]
+	path = osdsite
+	url = https://github.com/nancyxyzou/OSDViewerSite
