@@ -33,7 +33,7 @@ const Myprojects = () => {
             <small className='text-light'>Javascript | ReactJs | OpenSeadragon | Azure Cosmos DB</small>
             <div className="portfolio__item-cta">
               <a href="https://github.com/nancyxyzou/OSDViewerSite" target="_blank" rel='noreferrer' className='btn'>Github</a>
-              {/* <a href="https://nancyxyzou.github.io/nancyxzou/osdsite" target="_blank" rel='noreferrer' className='btn'>Demo</a> */}
+              <a href="https://nancyxyzou.github.io/nancyxzou/osdsite" target="_blank" rel='noreferrer' className='btn'>Demo</a>
             </div>
         </article>
 
