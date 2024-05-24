@@ -4,6 +4,7 @@ import personalsite from '../assets/personalsite.png'
 import bcigaming from '../assets/bcigaming.png'
 import dREMt from '../assets/dREMt.png'
 import medinform from '../assets/medinform.png'
+import osdsite from '../assets/osdsite.png'
 
 const Myprojects = () => {
   return (
@@ -21,6 +22,18 @@ const Myprojects = () => {
             <small className='text-light'>Javascript | ReactJs</small>
             <div className="portfolio__item-cta">
               <a href="https://github.com/nancyxyzou/nancyxzou" target="_blank" rel='noreferrer' className='btn'>Github</a>
+            </div>
+        </article>
+
+        <article className='portfolio__item'>
+            <div className="portfolio__item-image">
+                <img src={osdsite} alt="" />
+            </div>
+            <h3>OpenSeadragon Viewer</h3>
+            <small className='text-light'>Javascript | ReactJs | OpenSeadragon | Azure Cosmos DB</small>
+            <div className="portfolio__item-cta">
+              <a href="https://github.com/nancyxyzou/OSDViewerSite" target="_blank" rel='noreferrer' className='btn'>Github</a>
+              {/* <a href="https://nancyxyzou.github.io/nancyxzou/osdsite" target="_blank" rel='noreferrer' className='btn'>Demo</a> */}
             </div>
         </article>
 
