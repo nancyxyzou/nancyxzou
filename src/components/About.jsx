@@ -33,8 +33,9 @@ const About = () => {
                   <TfiWorld className='about__icon'/>
                   <h5>Domains</h5>
                   <small>
+                    Product Management <br />
                     Frontend/Backend Development <br />
-                    Game Development <br />
+                    QA Engineering <br />
                     Research
                   </small>
               </p>
@@ -45,7 +46,7 @@ const About = () => {
                   <h5>Interests</h5>
                   <small>
                     Rock climbing <br />
-                    VR/AR <br />
+                    Mechatronic Projects <br />
                     Trying to do one (1) pull-up
                   </small>
               </p>

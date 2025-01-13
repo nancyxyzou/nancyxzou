@@ -3,6 +3,20 @@ import './Timeline.css'
 
 var timelineData = [
     {
+        text: 'QA Engineering',
+        place: 'Scispot.io',
+        date: 'September 2024 - December 2024',
+        category: {
+            tag: 'co-op',
+            color: '#004643'
+        },
+        description: 'Led feature prioritization, bug detection and ticket management for 700+ issues across cross-functional teams for 1-week sprints using Linear. Authored & maintained 130+ test cases (manual & automated)',
+        link: {
+            url: '',
+            text: ''
+        }
+    },
+    {
         text: 'Software Research Assistant',
         place: 'PhotoMedicine Labs',
         date: 'January 2024 - April 2024',
@@ -15,11 +29,11 @@ var timelineData = [
             url: '',
             text: ''
         }
-    },    
+    }, 
     {
         text: 'Unity Game Developer',
         place: 'Watolink Neurotech Design Team',
-        date: 'January 2024 - PRESENT',
+        date: 'January 2024 - April 2024',
         category: {
             tag: 'design team',
             color: '#004643'

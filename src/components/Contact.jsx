@@ -3,7 +3,7 @@ import './Contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import { BsLinkedin } from "react-icons/bs";
 import { BsFiletypePdf } from "react-icons/bs";
-import Resume from '../assets/F24Resume.pdf'
+import Resume from '../assets/W25Resume.pdf'
 
 const Contacts = () => {
   return (
@@ -32,7 +32,7 @@ const Contacts = () => {
             <BsFiletypePdf className='contact__option-icon'/>
             <h4>Resume</h4>
             <h5 style={{color: '#abd1c6'}}>Last but not least...</h5>
-            <a href={Resume} target = "_blank"><b>Check out my resume</b></a>
+            <a href={Resume} target = "_blank" rel="noopener noreferrer"><b>Check out my resume</b></a>
           </article>
         </div>
 

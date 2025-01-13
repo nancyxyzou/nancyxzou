@@ -5,6 +5,7 @@ import bcigaming from '../assets/bcigaming.png'
 import dREMt from '../assets/dREMt.png'
 import medinform from '../assets/medinform.png'
 import osdsite from '../assets/osdsite.png'
+import EMGWaterGun from '../assets/EMGWaterGun.png'
 
 const Myprojects = () => {
   return (
@@ -13,7 +14,20 @@ const Myprojects = () => {
       <h5>What have I made?</h5>
       <h2>Projects</h2>
 
+
       <div className="container portfolio__container">
+
+        <article className='portfolio__item'>
+            <div className="portfolio__item-image">
+                <img src={EMGWaterGun} alt="" />
+            </div>
+            <h3>EMG-Controlled Water Gun Prosthetic</h3>
+            <small className='text-light'>SolidWorks | LTSpice | Arduino</small>
+            <div className="portfolio__item-cta">
+              <a href="https://youtube.com/shorts/bp7LnwAk7bE" target="_blank" rel='noreferrer' className='btn'>Video Demo</a>
+            </div>
+        </article>
+
         <article className='portfolio__item'>
             <div className="portfolio__item-image">
                 <img src={personalsite} alt="" />
